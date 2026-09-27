@@ -8,23 +8,61 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aspire", "aspire", "{0EB768
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessCoach.AppHost", "aspire\FitnessCoach.AppHost\FitnessCoach.AppHost.csproj", "{CA308A5D-085B-4842-8AD6-66A5DA56EF1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessCoach.ServiceDefaults", "aspire\FitnessCoach.ServiceDefaults\FitnessCoach.ServiceDefaults.csproj", "{C3324382-314C-471C-BAD2-3E2EF8CD7B79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F769AD22-2459-488D-89E0-773D6441FAC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F769AD22-2459-488D-89E0-773D6441FAC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F769AD22-2459-488D-89E0-773D6441FAC9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F769AD22-2459-488D-89E0-773D6441FAC9}.Debug|x64.Build.0 = Debug|Any CPU
+		{F769AD22-2459-488D-89E0-773D6441FAC9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F769AD22-2459-488D-89E0-773D6441FAC9}.Debug|x86.Build.0 = Debug|Any CPU
 		{F769AD22-2459-488D-89E0-773D6441FAC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F769AD22-2459-488D-89E0-773D6441FAC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F769AD22-2459-488D-89E0-773D6441FAC9}.Release|x64.ActiveCfg = Release|Any CPU
+		{F769AD22-2459-488D-89E0-773D6441FAC9}.Release|x64.Build.0 = Release|Any CPU
+		{F769AD22-2459-488D-89E0-773D6441FAC9}.Release|x86.ActiveCfg = Release|Any CPU
+		{F769AD22-2459-488D-89E0-773D6441FAC9}.Release|x86.Build.0 = Release|Any CPU
 		{CA308A5D-085B-4842-8AD6-66A5DA56EF1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CA308A5D-085B-4842-8AD6-66A5DA56EF1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA308A5D-085B-4842-8AD6-66A5DA56EF1E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CA308A5D-085B-4842-8AD6-66A5DA56EF1E}.Debug|x64.Build.0 = Debug|Any CPU
+		{CA308A5D-085B-4842-8AD6-66A5DA56EF1E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CA308A5D-085B-4842-8AD6-66A5DA56EF1E}.Debug|x86.Build.0 = Debug|Any CPU
 		{CA308A5D-085B-4842-8AD6-66A5DA56EF1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA308A5D-085B-4842-8AD6-66A5DA56EF1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA308A5D-085B-4842-8AD6-66A5DA56EF1E}.Release|x64.ActiveCfg = Release|Any CPU
+		{CA308A5D-085B-4842-8AD6-66A5DA56EF1E}.Release|x64.Build.0 = Release|Any CPU
+		{CA308A5D-085B-4842-8AD6-66A5DA56EF1E}.Release|x86.ActiveCfg = Release|Any CPU
+		{CA308A5D-085B-4842-8AD6-66A5DA56EF1E}.Release|x86.Build.0 = Release|Any CPU
+		{C3324382-314C-471C-BAD2-3E2EF8CD7B79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3324382-314C-471C-BAD2-3E2EF8CD7B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3324382-314C-471C-BAD2-3E2EF8CD7B79}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C3324382-314C-471C-BAD2-3E2EF8CD7B79}.Debug|x64.Build.0 = Debug|Any CPU
+		{C3324382-314C-471C-BAD2-3E2EF8CD7B79}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C3324382-314C-471C-BAD2-3E2EF8CD7B79}.Debug|x86.Build.0 = Debug|Any CPU
+		{C3324382-314C-471C-BAD2-3E2EF8CD7B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3324382-314C-471C-BAD2-3E2EF8CD7B79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3324382-314C-471C-BAD2-3E2EF8CD7B79}.Release|x64.ActiveCfg = Release|Any CPU
+		{C3324382-314C-471C-BAD2-3E2EF8CD7B79}.Release|x64.Build.0 = Release|Any CPU
+		{C3324382-314C-471C-BAD2-3E2EF8CD7B79}.Release|x86.ActiveCfg = Release|Any CPU
+		{C3324382-314C-471C-BAD2-3E2EF8CD7B79}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F769AD22-2459-488D-89E0-773D6441FAC9} = {6A664B91-5A94-4870-AAB6-EB92D1B7838D}
 		{CA308A5D-085B-4842-8AD6-66A5DA56EF1E} = {0EB768F2-82E1-47F8-B0FD-247B4F1EA1AE}
+		{C3324382-314C-471C-BAD2-3E2EF8CD7B79} = {0EB768F2-82E1-47F8-B0FD-247B4F1EA1AE}
 	EndGlobalSection
 EndGlobal
