@@ -1,5 +1,9 @@
 <Project Sdk="Aspire.AppHost.Sdk/13.5.4">
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\FitnessCoach.Web\FitnessCoach.Web.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net10.0</TargetFramework>
